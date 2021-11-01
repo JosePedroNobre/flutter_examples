@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "962270819235",
+    "project_id": "staffapp-ecb3d",
+    "storage_bucket": "staffapp-ecb3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962270819235:android:5a5898a4e25ccbc907e016",
+        "android_client_info": {
+          "package_name": "tech.sensei.staffapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962270819235-87vj4v76ashd096km66ej35s655q5g12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlMeOGk9h9bjTvu-YsjrPu1mMGPO9Yw5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962270819235-87vj4v76ashd096km66ej35s655q5g12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962270819235:android:11b45c326284a8db07e016",
+        "android_client_info": {
+          "package_name": "tech.sensei.staffapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962270819235-87vj4v76ashd096km66ej35s655q5g12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlMeOGk9h9bjTvu-YsjrPu1mMGPO9Yw5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962270819235-87vj4v76ashd096km66ej35s655q5g12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

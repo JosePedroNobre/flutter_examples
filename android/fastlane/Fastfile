@@ -1,0 +1,21 @@
+default_platform(:android)
+platform :android do
+  desc "Android staff app"
+  lane :deploy do
+    #slack(
+     # slack_url: "https://hooks.slack.com/services/...",
+     # message: "New build is available for testing",
+     # success: true,
+     # default_payloads: [:git_branch, :last_git_commit_message]
+   # )
+   increment_version_code(
+    gradle_file_path: "/Users/josenobre/Desktop/staff_app/android/app/build.gradle",
+)
+      firebase_app_distribution(
+        app: "1:962270819235:android:11b45c326284a8db07e016",
+        testers: "josepedronobre19@gmail.com",
+        apk_path: "/Users/josenobre/Desktop/staff_app/build/app/outputs/flutter-apk/app-release.apk",
+        release_notes: "New features on staff app"
+      )
+  end
+end

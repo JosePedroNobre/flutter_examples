@@ -1,0 +1,4 @@
+class ErrorCodes {
+  String INVALID_PASSWORD = "INVALID_PASSWORD";
+  String INVALID_USER = "INVALID_USER";
+}
