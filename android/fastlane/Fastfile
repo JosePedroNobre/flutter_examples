@@ -1,0 +1,21 @@
+default_platform(:android)
+platform :android do
+  desc "Android customer app"
+  lane :deploy do
+    #slack(
+     # slack_url: "https://hooks.slack.com/services/...",
+     # message: "New build is available for testing",
+     # success: true,
+     # default_payloads: [:git_branch, :last_git_commit_message]
+   # )
+   increment_version_code(
+    gradle_file_path: "/Users/josenobre/Desktop/customer_app/android/app/build.gradle",
+)
+      firebase_app_distribution(
+        app: "1:373229248915:android:cc53716852e3c8526e8866",
+        testers: "josepedronobre19@gmail.com",
+        apk_path: "/Users/josenobre/Desktop/customer_app/build/app/outputs/flutter-apk/app-release.apk",
+        release_notes: "New features"
+      )
+  end
+end

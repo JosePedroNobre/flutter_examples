@@ -1,0 +1,63 @@
+name: customer
+description: Customer App
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.19.3
+  shared_preferences: ^0.5.6
+  flutter_launcher_icons: ^0.7.4
+  connectivity: ^0.4.8+6
+  flutter_bloc: ^6.0.0
+  equatable: ^1.2.0
+  dio: ^3.0.4
+  rxdart: ^0.21.0
+  qr_flutter: ^3.1.0
+  pin_code_fields: ^6.1.0
+  smooth_page_indicator: ^0.2.0
+  jwt_decoder: ^1.0.4
+  dotted_border: ^1.0.7
+  jiffy: ^3.0.1
+  image_picker: ^0.6.7+22
+  camera: ^0.7.0
+  flutter_slidable: ^0.5.7
+  google_maps_flutter: ^1.2.0
+  maps_launcher: ^1.2.0
+  geolocator: ^6.2.1
+  url_launcher: ^5.7.10
+  sliding_up_panel: ^2.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: ""
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - images/flags/
+    - images/variable_images/
+    - images/notification_icons/
+    - images/store/
+    - raw/
+
+  fonts:
+    - family: Font1
+      fonts:
+        - asset: fonts/font1.ttf
+
+    - family: Font2
+      fonts:
+        - asset: fonts/font2.ttf
